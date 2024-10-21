@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7f4fa;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #b3e3f2, #c0ebf7);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #00796b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: white;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #00796b;
+    border-bottom: 2px solid #b3e3f2;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.contact-info {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info p {
+    margin: 0 15px 0 0;
+}
+
+.contact-info a {
+    color: #00796b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #c0ebf7;
+    color: #333;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
+    border-radius: 75px;
+    margin: 20px auto;
+    display: block;
+    border: 5px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    margin-right: 8px;
+    color: #00796b;
+}
